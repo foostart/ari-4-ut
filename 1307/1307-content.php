@@ -1,5 +1,5 @@
 <?php
-$url_host = 'http://'.$_SERVER['HTTP_HOST'];
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
@@ -7,15 +7,15 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="type-330_1">
+<div class="type-1307">
     <div class="clearfix"></div>
     <div class="container">
         <div class="logo">
             <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-3">
                     <div class="search">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                        SEARCH
+                        <input aria-hidden="true" placeholder="Search" class="fa fa-search" id="search-input" name="search-input" type="text">
+                        <button id="search-click" type="submit" class="s-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
                     </div>
                 </div>
 
@@ -28,8 +28,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-3 col-sm-3 col-xs-3">
                     <div class="logoright">
                         <ul class="checkout">
-                            <li><a href="#"><i class="fa fa-heart-o"></i>wishlist</a></li>
-                            <li><a href="#"><i class="fa fa-shopping-cart"></i>checklist</a></li>
+                            <li><a class="heart" href="#"><i class="fa fa-heart-o"></i>wishlist</a></li>
+                            <li><a class="cart" href="#"><i class="fa fa-shopping-cart"></i>checklist</a></li>
                         </ul>
                         <div class="w_likes">
                             <span>3</span>
@@ -53,11 +53,11 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">HOME</a></li>
+                    <li><a class="home" href="#">HOME</a></li>
                     <li  class="active"><a href="#">SHOP</a></li>
-                    <li><a href="#">ACCESSORIES</a></li> 
-                    <li><a href="#">PAGES</a></li>
-                    <li><a href="#">BLOCK</a></li> 
+                    <li><a class="access" href="#">ACCESSORIES</a></li> 
+                    <li><a class="pages" href="#">PAGES</a></li>
+                    <li><a class="block" href="#">BLOCK</a></li> 
 
                 </ul>
                 <ul class="nav navbar-nav navbar-right">

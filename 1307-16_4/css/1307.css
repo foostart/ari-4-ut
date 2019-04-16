@@ -1,0 +1,248 @@
+.type-1307 .logo {
+  margin-top: 50px;
+}
+.type-1307 .search {
+  font-size: 17px;
+  font-weight: 400;
+}
+.type-1307 .search .fa-search {
+  margin-right: 5px;
+}
+.type-1307 .img-logo {
+  text-align: center;
+}
+.type-1307 .img-logo img {
+  width: 40%;
+}
+.type-1307 .logoright {
+  float: right;
+}
+.type-1307 .logoright .checkout {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.type-1307 .logoright li {
+  float: left;
+}
+.type-1307 .logoright a {
+  color: #212121;
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.type-1307 .logoright .fa-heart-o {
+  padding: 0 8px;
+}
+.type-1307 .logoright .fa-shopping-cart {
+  padding: 0 8px;
+}
+.type-1307 .logoright .w_likes {
+  background: url(../images/wishlist_bg.png) no-repeat scroll 0 0 rgba(0,0,0,0);
+  background-size: cover;
+  height: 22px;
+  position: absolute;
+  top: -23px;
+  width: 26px;
+}
+.type-1307 .logoright .w_likes span {
+  color: #fff;
+  margin-left: 10px;
+}
+.type-1307 .navbar-default {
+  background: #ff6766;
+  margin-top: 50px;
+}
+.type-1307 .navbar-collapse {
+  text-align: center;
+}
+.type-1307 .navbar-nav {
+  margin: 0 auto;
+}
+.type-1307 .navbar-default .navbar-brand:focus,
+.type-1307 .navbar-default .navbar-brand:hover {
+  color: #fff;
+}
+.type-1307 .navbar-default .navbar-brand {
+  color: #fff;
+  font-size: 14px;
+  background-color: #f06160;
+}
+.type-1307 .navbar-default .navbar-nav .active a,
+.type-1307 .navbar-default .navbar-nav .active a:focus,
+.type-1307 .navbar-default .navbar-nav .active a:hover {
+  color: #fff;
+  background: none;
+  border-top: 1.5px solid #000;
+}
+.type-1307 .navbar-default .navbar-nav li a {
+  color: #fff;
+  text-align: center;
+}
+.type-1307 .navbar-right {
+  background-color: #f06160;
+}
+.type-1307 .logo .img-logo img:hover {
+  filter: grayscale(0%);
+  opacity: 2;
+  transform: scale(1.2);
+  overflow: hidden;
+}
+.type-1307 .logo .img-logo img {
+  opacity: .8;
+  transition: .6s;
+}
+.type-1307 .logo .search {
+  display: inline-flex;
+}
+.type-1307 .logo .search .s-btn {
+  color: #000;
+  background: none;
+  border: none;
+  width: auto;
+}
+.type-1307 .logo .search #search-input {
+  border: 1px solid #000;
+  background: transparent;
+  border: 1px solid transparent;
+  outline: 0;
+  padding: 0;
+  max-width: 0;
+  -webkit-transition: all .7s ease;
+  -o-transition: all .7s ease;
+  transition: all .7s ease;
+}
+.type-1307 .logo .logoright .checkout .heart:hover {
+  font-size: 13px;
+  transition: all .7s ease;
+}
+.type-1307 .logo .logoright .checkout .heart:hover .fa {
+  color: #ff6766;
+}
+.type-1307 .logo .logoright .checkout .cart:hover {
+  font-size: 13px;
+  transition: all .7s ease;
+}
+.type-1307 .logo .logoright .checkout .cart:hover .fa {
+  color: #ff6766;
+}
+.type-1307 .navbar-default .navbar-brand {
+  font-weight: 540;
+}
+.type-1307 .navbar-default .navbar-brand:hover {
+  color: #000;
+  transition: all .7s ease;
+}
+.type-1307 .navbar-default .navbar-collapse .active a:hover {
+  color: #000;
+  transition: all .7s ease;
+}
+.type-1307 .navbar-default .navbar-collapse .home:hover {
+  color: #000;
+  transition: all .7s ease;
+}
+.type-1307 .navbar-default .navbar-collapse .access:hover {
+  color: #000;
+  transition: all .7s ease;
+}
+.type-1307 .navbar-default .navbar-collapse .pages:hover {
+  color: #000;
+  transition: all .7s ease;
+}
+.type-1307 .navbar-default .navbar-collapse .block:hover {
+  color: #000;
+  transition: all .7s ease;
+}
+.type-1307 .navbar-default .navbar-collapse .home:hover,
+.type-1307 .navbar-default .access:hover,
+.type-1307 .navbar-default .pages:hover,
+.type-1307 .navbar-default .block:hover {
+  background: none;
+  border-top: 2px solid #000;
+}
+.type-1307 .navbar-default .navbar-collapse .home:hover .active a,
+.type-1307 .navbar-default .access:hover .active a,
+.type-1307 .navbar-default .pages:hover .active a,
+.type-1307 .navbar-default .block:hover .active a {
+  background: none;
+  border-top: none;
+}
+.type-1307 .navbar-default .navbar-nav {
+  width: fit-content;
+}
+.type-1307 .navbar-default .navbar-right a:hover {
+  color: #000;
+  transition: all .7s ease;
+}
+.type-1307 .navbar-default .navbar-right a:hover img {
+  color: #000;
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .type-1307 .search:hover #search-input {
+    max-width: 70px;
+    border: 1px solid #ff6766;
+  }
+  .type-1307 .search:hover .fa {
+    color: #ff6766;
+  }
+  .type-1307 .checkout {
+    text-align: center;
+  }
+  .type-1307 .navbar-brand {
+    font-size: 10px !important;
+  }
+  .type-1307 .navbar-collapse {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .type-1307 .search:hover #search-input {
+    max-width: 120px;
+    border: 1px solid #ff6766;
+  }
+  .type-1307 .search:hover .fa {
+    color: #ff6766;
+  }
+  .type-1307 .checkout {
+    text-align: center;
+  }
+  .type-1307 .navbar-brand {
+    font-size: 12px !important;
+  }
+  .type-1307 .navbar-collapse {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .type-1307 .navbar-right,
+  .type-1307 .navbar-brand {
+    margin-top: 3px;
+  }
+  .type-1307 .search:hover #search-input {
+    max-width: 120px;
+    border: 1px solid #ff6766;
+  }
+  .type-1307 .search:hover .fa {
+    color: #ff6766;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .type-1307 .navbar-right,
+  .type-1307 .navbar-brand {
+    margin-top: 3px;
+  }
+  .type-1307 .search:hover #search-input {
+    max-width: 150px;
+    border: 1px solid #ff6766;
+  }
+  .type-1307 .search:hover .fa {
+    color: #ff6766;
+  }
+  .type-1307 .navbar-nav {
+    display: inline-block;
+    float: none;
+  }
+}

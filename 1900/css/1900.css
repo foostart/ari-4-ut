@@ -195,6 +195,15 @@ body {
 .type-1900 .content {
   position: relative;
 }
+.type-1900 .content .row {
+  margin: 0;
+}
+.type-1900 .content .mmcontext {
+  padding: 0;
+}
+.type-1900 .content .right-menu {
+  float: right;
+}
 .type-1900 .menunav {
   position: relative;
 }
@@ -1208,19 +1217,17 @@ body {
   background: #ccdb38;
 }
 .type-1900 #collape {
+  float: right;
   background: none 0px 0px repeat scroll #fafafa;
   border-style: solid;
   border-color: #ffffff #ffffff #ffffff;
   border-image: initial;
   box-shadow: rgba(0,0,0,0.2) 0px 4px 4px 0px;
-  position: absolute;
   width: 200px;
   z-index: 99;
   transition: all 0.3s ease-out 0s;
   text-align: left;
-  line-height: 20px;
   top: 100%;
-  left: -10%;
   line-height: 30px;
   border: 0;
 }
@@ -1248,6 +1255,25 @@ body {
   -moz-filter: drop-shadow(1px 1px 1px #4BAE4F);
   -webkit-filter: drop-shadow(1px 1px 1px #4BAE4F);
 }
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .type-1900 .smart-search {
+    display: none;
+  }
+  .type-1900 .mini-cart {
+    display: none;
+  }
+  .type-1900 .left-contact p {
+    font-size: 11px;
+  }
+  .type-1900 .top-extra-link a {
+    font-size: 11px;
+    margin: 1px 1px !important;
+  }
+  .type-1900 .logo-top a {
+    right: 28%;
+    position: absolute;
+  }
+}
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .type-1900 .logo-top {
     left: 40%;
@@ -1264,13 +1290,9 @@ body {
   .type-1900 .top-extra-link {
     text-align: center;
   }
-  .type-1900 .right-category-dropdown {
-    position: absolute;
-    left: 164%;
-  }
   .type-1900 .list-category-dropdown {
-    left: 120% !important;
     margin-top: 42px;
+    float: right;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

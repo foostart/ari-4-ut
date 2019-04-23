@@ -1,6 +1,9 @@
 .type-220 .clearfix {
   clear: both;
 }
+.type-220 .top-header {
+  position: relative;
+}
 .type-220 .header a {
   color: #fff;
 }
@@ -55,19 +58,11 @@
 .type-220 .header .navbar {
   top: 70px;
 }
-.type-220 .header .nav>li>a:focus,
-.type-220 .header .nav>li>a:hover,
-.type-220 .header .nav .open>a,
-.type-220 .header .nav .open>a:focus,
-.type-220 .header .nav .open>a:hover,
-.type-220 .header .dropdown-menu>li>a:focus,
-.type-220 .header .dropdown-menu>li>a:hover {
+.type-220 .header .nav li a:focus,
+.type-220 .header .nav li a:hover {
   background: none;
 }
 .type-220 .header .navbar a,
-.type-220 .header .dropdown-menu>li>a,
-.type-220 .header .dropdown-menu>li>a:focus,
-.type-220 .header .dropdown-menu>li>a:hover,
 .type-220 .header .navbar-toggle {
   color: #60ca64;
 }
@@ -78,60 +73,6 @@
 .type-220 .header .navbar-toggle .icon-bar {
   color: #fff;
   background: #fff;
-}
-.type-220 .header .lms_search_toggle {
-  position: absolute;
-  top: 30px;
-  right: 10px;
-  cursor: pointer;
-  -webkit-transition: all 0.3s;
-}
-.type-220 .header .lms_search_toggle a {
-  width: 40px;
-  height: 40px;
-  line-height: 55px;
-  text-align: center;
-  color: #fff;
-  display: inline-block;
-  -webkit-transition: all 0.3s;
-}
-.type-220 .header .lms_search_wrapper {
-  display: none;
-  position: absolute;
-  top: 100%;
-  right: 15px;
-  width: auto;
-  height: auto;
-  padding: 25px;
-  margin-top: 1px;
-  background: #f0f0f0;
-  min-width: 248px;
-}
-.type-220 .header .lms_search_wrapper input {
-  border: 1px solid #9EA6B0;
-  height: 40px;
-  width: 100%;
-  padding-left: 10px;
-  outline: none;
-  background-color: #fff;
-}
-.type-220 .header .lms_search_wrapper input:hover,
-.type-220 .header .lms_search_wrapper input:focus {
-  border-color: #9EA6B0;
-}
-@media all and (min-width: 767px) {
-  .type-220 .image {
-    width: 100%;
-  }
-  .type-220 .btn-responsive-nav {
-    display: none;
-  }
-  .type-220 .navbar-collapse.collapse {
-    display: block !important;
-    height: auto !important;
-    padding-bottom: 0;
-    overflow: visible !important;
-  }
 }
 @media (max-width: 991px) {
   .type-220 #lms_header {
@@ -148,14 +89,6 @@
   }
   .type-220 .lms_login_wrapper {
     text-align: center;
-  }
-  .type-220 .lms_search_toggle {
-    display: none;
-  }
-  .type-220 #lms_header .nav-main-collapse {
-    top: 8px;
-    position: relative;
-    max-height: none;
   }
   .type-220 #lms_header .nav-main {
     padding: 10px 0;

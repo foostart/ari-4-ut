@@ -18,7 +18,7 @@
     
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Live preview</title>
         <meta charset="UTF-8">
@@ -27,8 +27,8 @@
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/220.css" rel="stylesheet" type="text/css" />
         
-        <script src="<?php echo $url_path ?>/js/jquery.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
        
     </head>
     <body>

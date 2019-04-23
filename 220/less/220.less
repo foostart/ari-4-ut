@@ -7,6 +7,9 @@
     .clearfix{
         clear: both;
     }
+    .top-header{
+        position: relative;
+    }
     .header {
         a {
             color: @color_white;
@@ -74,10 +77,10 @@
         .navbar{
             top: 70px;
         }
-        .nav>li>a:focus, .nav>li>a:hover,.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+        .nav li a:focus, .nav li a:hover{
             background: none;
         }
-        .navbar a, .dropdown-menu>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .navbar-toggle{
+        .navbar a, .navbar-toggle{
             color: #60ca64;
         }
         .dropdown-menu{
@@ -88,62 +91,6 @@
         .navbar-toggle .icon-bar{
             color: #fff;
             background: #fff;
-        }
-
-        /*Search*/
-        .lms_search_toggle {
-            position: absolute;
-            top: 30px;
-            right: 10px;
-            cursor: pointer;
-            -webkit-transition: all 0.3s;
-            a {
-                width: 40px;
-                height: 40px;
-                line-height: 55px;
-                text-align: center;
-                color: @color_white;
-                display: inline-block;
-                -webkit-transition: all 0.3s;
-            }
-        } 
-        .lms_search_wrapper {
-            display: none;
-            position: absolute;
-            top: 100%;
-            right: 15px;
-            width: auto;
-            height: auto;
-            padding: 25px;
-            margin-top: 1px;
-            background: rgba(240, 240, 240, 1);
-            min-width: 248px;
-            input {
-                border: 1px solid #9EA6B0;
-                height: 40px;
-                width: 100%;
-                padding-left: 10px;
-                outline: none;
-                background-color: @color_white; 
-            }
-        }
-        .lms_search_wrapper input:hover, .lms_search_wrapper input:focus{
-            border-color: #9EA6B0;
-        }
-    }
-
-    @media all and (min-width: 767px) {
-        .image{
-            width: 100%;
-        }
-        .btn-responsive-nav {
-            display: none;
-        }
-        .navbar-collapse.collapse {
-            display: block !important;
-            height: auto !important;
-            padding-bottom: 0;
-            overflow: visible !important;
         }
 
     }
@@ -170,17 +117,7 @@
             text-align: center;
         }
 
-        /*Search toggle*/
-        .lms_search_toggle {
-            display: none;
-        }
-
         /*Menu toggle*/  
-        #lms_header .nav-main-collapse {
-            top: 8px;
-            position: relative;               
-            max-height: none;
-        }
         #lms_header .nav-main {
             padding: 10px 0;
             clear: both;

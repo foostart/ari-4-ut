@@ -33,7 +33,7 @@
     }
 
     .swiper-container {
-        width: 50%;
+        width: 100%;
     }
     .swiper-slide {
         /* Center slide text vertically */
@@ -49,6 +49,17 @@
         -ms-flex-align: center;
         -webkit-align-items: center;
         align-items: center;
+    }
+    .swiper-pagination{
+        bottom: 0!important;
+    }
+    .arrow{
+        display: none;
+    }
+    .swiper-container:hover{
+        .arrow{
+            display: block;
+        }
     }
 }
 

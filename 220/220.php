@@ -28,7 +28,7 @@
         <link href="<?php echo $url_path ?>/css/220.css" rel="stylesheet" type="text/css" />
         
         <script src="<?php echo $url_path ?>/js/jquery.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>
        
     </head>
     <body>

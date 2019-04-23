@@ -30,7 +30,7 @@
   max-width: 100%;
 }
 .type-196 .swiper-container {
-  width: 50%;
+  width: 100%;
 }
 .type-196 .swiper-slide {
   display: -webkit-box;
@@ -45,4 +45,13 @@
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+}
+.type-196 .swiper-pagination {
+  bottom: 0 !important;
+}
+.type-196 .arrow {
+  display: none;
+}
+.type-196 .swiper-container:hover .arrow {
+  display: block;
 }

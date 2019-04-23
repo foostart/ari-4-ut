@@ -19,16 +19,16 @@ $less->compileFile('less/196.less', 'css/196.css');
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>Brands</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-        <!--<link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />-->
-        <!--<link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />-->
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/196.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css" />
 
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/196.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/196.js" ></script>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
     </head>
 

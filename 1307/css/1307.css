@@ -76,7 +76,6 @@
 .type-1307 .navbar-default .navbar-nav .active a:hover {
   color: #fff;
   background: none;
-  border-top: 1.5px solid #000;
 }
 .type-1307 .navbar-default .navbar-nav li a {
   color: #fff;
@@ -161,7 +160,6 @@
 .type-1307 .navbar-default .pages:hover,
 .type-1307 .navbar-default .block:hover {
   background: none;
-  border-top: 2px solid #000;
 }
 .type-1307 .navbar-default .navbar-collapse .home:hover .active a,
 .type-1307 .navbar-default .access:hover .active a,
@@ -172,6 +170,17 @@
 }
 .type-1307 .navbar-default .navbar-nav {
   width: fit-content;
+}
+.type-1307 .navbar-default .navbar-nav li a {
+  border-top: 2px solid transparent;
+  display: block;
+}
+.type-1307 .navbar-default .navbar-nav li a:hover {
+  border-top: 2px solid #000;
+}
+.type-1307 .navbar-default .navbar-nav .active a {
+  border-top: 2px solid #000;
+  display: block;
 }
 .type-1307 .navbar-default .navbar-right a:hover {
   color: #000;

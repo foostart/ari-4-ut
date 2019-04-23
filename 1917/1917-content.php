@@ -14,15 +14,33 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="wrapper-img">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1460686998899">
-                        <a href="#" target="_self" class="image-wrapper">
-                            <img width="1170" height="380" src="images/about-banner.jpg" class="img-responsive" alt="" sizes="(max-width: 1170px) 100vw, 1170px">
-                        </a>
+                    <!-- Swiper -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" target="_self" class="image-wrapper">
+                                    <img width="1170" height="380" src="images/about-banner.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" target="_self" class="image-wrapper">
+                                    <img width="1170" height="380" src="images/about-banner1.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" target="_self" class="image-wrapper">
+                                    <img width="1170" height="380" src="images/about-banner2.jpg" class="img-responsive" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                 </div>
             </div>
         </div>
-        
+
         <div class="clearfix"></div>
 
         <div class="wrapper-text">

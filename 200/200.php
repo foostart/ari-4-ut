@@ -25,7 +25,7 @@ $less->compileFile('less/200.less', 'css/200.css');
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Gentelella Alela! | </title>
+        <title></title>
 
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome.min.css">

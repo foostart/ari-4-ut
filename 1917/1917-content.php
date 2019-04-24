@@ -34,8 +34,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
                         <!-- Add Arrows -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                        <div class="arrow">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
                     </div>
                 </div>
             </div>

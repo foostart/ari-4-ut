@@ -66,3 +66,9 @@ body {
   -webkit-align-items: center;
   align-items: center;
 }
+.type-1917 .arrow {
+  display: none;
+}
+.type-1917 .wrapper-img:hover .arrow {
+  display: block;
+}

@@ -359,8 +359,6 @@ body {
   transition: all .3s ease-out 0s;
 }
 .type-1900 .menunav ul li .contextshop .contextinformation ul li:hover a {
-  transform: translate(10px,0);
-  transition: .8s;
   color: #fab708;
 }
 .type-1900 .menunav ul li .contextmega {
@@ -423,12 +421,18 @@ body {
   border: 1px solid #333;
   font-size: 12px;
   background-color: #fff;
-  padding: 0 19px;
+  padding: 0 15px;
   color: #333;
   height: 35px;
   line-height: 34px;
   text-decoration: none;
   width: 105px;
+}
+.type-1900 .menunav ul li .contextmega .megaone .shop-button:hover {
+  transition: all 0.4s ease 0s;
+  color: #ffffff;
+  background: #f6b93b;
+  border-color: #f6b93b;
 }
 .type-1900 .menunav ul li .contextmega .megaone .image {
   margin-top: 15px;
@@ -512,8 +516,6 @@ body {
   transition: all .3s ease-out 0s;
 }
 .type-1900 .menunav ul li .contextmega .megaone .megacategory ul li:hover a {
-  transform: translate(10px,0);
-  transition: .8s;
   color: #fab708;
 }
 .type-1900 .menunav ul li .contextmega .megaone .frameswiper {
@@ -635,15 +637,15 @@ body {
 }
 .type-1900 .menunav ul li:hover .context {
   display: block;
-  animation: navup 0.6s;
+  animation: navup 0.4s;
 }
 .type-1900 .menunav ul li:hover .contextshop {
   display: block;
-  animation: contextshopup 0.6s;
+  animation: contextshopup 0.4s;
 }
 .type-1900 .menunav ul li:hover .contextmega {
   display: block;
-  animation: megacontextup 0.6s;
+  animation: megacontextup 0.4s;
 }
 .type-1900 .menunav ul li:hover .title a {
   color: #fab502;
@@ -687,6 +689,9 @@ body {
     position: initial;
     transform: translate(5px,0);
   }
+  .type-1900 .content .container .row .right-menu {
+    padding: 0;
+  }
   .type-1900 .content .container .row .menunav {
     width: 40px;
     height: 40px;
@@ -695,7 +700,6 @@ body {
     top: 5%;
     transition: .5s;
     position: absolute;
-    left: 16%;
   }
   .type-1900 .content .container .row .menunav .menuiconnav {
     display: block;
@@ -864,8 +868,6 @@ body {
     transition: all .3s ease-out 0s;
   }
   .type-1900 .content .container .row .menunav .menumobile ul li .contextshop .contextinformation ul li:hover a {
-    transform: translate(10px,0);
-    transition: .8s;
     color: #fab708;
   }
   .type-1900 .content .container .row .menunav .menumobile ul li .contextmega {
@@ -1021,8 +1023,6 @@ body {
     transition: all .3s ease-out 0s;
   }
   .type-1900 .content .container .row .menunav .menumobile ul li .contextmega .megaone .megacategory ul li:hover a {
-    transform: translate(10px,0);
-    transition: .8s;
     color: #fab708;
   }
   .type-1900 .content .container .row .menunav .menumobile ul li .contextmega .megaone .frameswiper {
@@ -1204,7 +1204,7 @@ body {
   text-transform: uppercase;
   right: 45%;
   line-height: 50px;
-  font-weight: 550;
+  font-weight: 500;
   font-size: 16px;
 }
 .type-1900 .right-category-dropdown {
@@ -1275,6 +1275,9 @@ body {
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .type-1900 .header-top {
+    height: 130px;
+  }
   .type-1900 .logo-top {
     left: 40%;
   }

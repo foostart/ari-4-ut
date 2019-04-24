@@ -148,8 +148,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         <li><a href="#"><p>Shop</p></a></li>
                                                         <li><a href="#"><p>Shop list</p></a></li>
                                                         <li><a href="#"><p>Shop list full</p></a></li>
-                                                        <li><a href="#"><p>Shop grid – Sidebar style2</p></a></li>
-                                                        <li><a href="#"><p>Shop list – Sidebar style2</p></a></li>
+                                                        <li><a href="#"><p>Shop grid – Sidebar</p></a></li>
+                                                        <li><a href="#"><p>Shop list – Sidebar</p></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -231,8 +231,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                                             <li><a href="#"><p>Shop</p></a></li>
                                                             <li><a href="#"><p>Shop list</p></a></li>
                                                             <li><a href="#"><p>Shop list full</p></a></li>
-                                                            <li><a href="#"><p>Shop grid – Sidebar style2</p></a></li>
-                                                            <li><a href="#"><p>Shop list – Sidebar style2</p></a></li>
+                                                            <li><a href="#"><p>Shop grid – Sidebar</p></a></li>
+                                                            <li><a href="#"><p>Shop list – Sidebar</p></a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -259,8 +259,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                                             <li><a href="#"><p>Shop</p></a></li>
                                                             <li><a href="#"><p>Shop list</p></a></li>
                                                             <li><a href="#"><p>Shop list full</p></a></li>
-                                                            <li><a href="#"><p>Shop grid – Sidebar style2</p></a></li>
-                                                            <li><a href="#"><p>Shop list – Sidebar style2</p></a></li>
+                                                            <li><a href="#"><p>Shop grid – Sidebar</p></a></li>
+                                                            <li><a href="#"><p>Shop list – Sidebar</p></a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -527,5 +527,4 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
-</div>
 </div>

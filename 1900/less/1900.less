@@ -1,5 +1,6 @@
 @font-normal:14px;
-@background-top:#4bae4f;
+@4ba:#4bae4f;
+@cd3: #ccdb38;
 
 body{
     padding: 0;
@@ -24,7 +25,7 @@ body{
     }
 
     .header-top{
-        background-color: @background-top;
+        background-color: @4ba;
         width: auto;
         height: 122px;
         color:white;
@@ -35,11 +36,11 @@ body{
 
             .left-contact{
                 .fa-phone-square{
-                    color: #ccdb38;
+                    color: @cd3;
                 }
 
                 .span-text{
-                    color: #ccdb38;
+                    color: @cd3;
                     margin: 0 5px;
                 }
             }
@@ -50,10 +51,10 @@ body{
                     color: white;
                 }
                 a:hover{
-                    color:#ccdb38;
+                    color:@cd3;
                 }
                 i{
-                    color: #ccdb38;
+                    color: @cd3;
                     margin-right: 5px;
                 }
             }
@@ -85,7 +86,7 @@ body{
                     }
 
                     .btn-collapse{
-                        background: #ccdb38;
+                        background: @cd3;
                         color: #fff;
                         height: 20px;
                         line-height: 20px;
@@ -107,7 +108,7 @@ body{
                         -webkit-transition: all 0.3s ease-out 0s;
                         transition: all 0.3s ease-out 0s;
                         text-align: left;
-                        border-top: 1px solid #4bae4f;
+                        border-top: 1px solid @4ba;
                         line-height: 20px;
 
                         li{
@@ -153,7 +154,7 @@ body{
                     float: left;
 
                     .icon-search{
-                        background-color: #ccdb38;
+                        background-color: @cd3;
                         border: medium none;
                         height: 45px;
                         position: absolute;
@@ -181,7 +182,7 @@ body{
                 right: 10%;
 
                 .icon-cart{
-                    background-color: #ccdb38;
+                    background-color: @cd3;
                     border: medium none;
                     height: 45px;
                     left: 0;
@@ -192,7 +193,7 @@ body{
                     padding-left: 10%;
 
                     .set-cart-price{
-                        color: #4bae4f;
+                        color: @4ba;
                     }
 
                     .total-mini-cart-item{
@@ -412,8 +413,6 @@ body{
 
                             }
                             li:hover a{
-                                transform: translate(10px,0);
-                                transition: .8s;
                                 color: #fab708;
                             }
                         }
@@ -479,7 +478,7 @@ body{
                             border: 1px solid #333;
                             font-size: 12px;
                             background-color: #fff;
-                            padding: 0 19px;
+                            padding: 0 15px;
                             color: #333;
                             height: 35px;
                             line-height: 34px;
@@ -487,6 +486,13 @@ body{
                             width: 105px;
                             height: 35px;
                         }
+                        .shop-button:hover{
+                            transition: all 0.4s ease 0s;
+                            color: #ffffff;
+                            background: #f6b93b;
+                            border-color: #f6b93b;
+                        }
+
                         .image{
                             margin-top: 15px;
                             display: block;
@@ -573,8 +579,6 @@ body{
 
                                 }
                                 li:hover a{
-                                    transform: translate(10px,0);
-                                    transition: .8s;
                                     color: #fab708;
                                 }
                             }
@@ -716,16 +720,15 @@ body{
             li:hover{
                 .context{
                     display: block;
-                    animation: navup 0.6s;
+                    animation: navup 0.4s;
                 }
                 .contextshop{
-
                     display: block;
-                    animation: contextshopup 0.6s;
+                    animation: contextshopup 0.4s;
                 }
                 .contextmega{
                     display: block;
-                    animation: megacontextup 0.6s;
+                    animation: megacontextup 0.4s;
                 }
             }
             li:hover .title a{
@@ -797,15 +800,17 @@ body{
                             }
                         }
                     }
+                    .right-menu{
+                        padding: 0;
+                    }
                     .menunav{
                         width: 40px;
                         height: 40px;
                         overflow: hidden;
-                        background: #4bae4f;
+                        background: @4ba;
                         top: 5%;
                         transition: .5s;
                         position: absolute;
-                        left: 16%;
 
                         .menuiconnav{
                             display: block;
@@ -987,8 +992,6 @@ body{
 
                                                 }
                                                 li:hover a{
-                                                    transform: translate(10px,0);
-                                                    transition: .8s;
                                                     color: #fab708;
                                                 }
                                             }
@@ -1151,8 +1154,6 @@ body{
 
                                                     }
                                                     li:hover a{
-                                                        transform: translate(10px,0);
-                                                        transition: .8s;
                                                         color: #fab708;
                                                     }
                                                 }
@@ -1378,7 +1379,7 @@ body{
         text-transform: uppercase;
         right: 45%;
         line-height: 50px;
-        font-weight: 550;
+        font-weight: 500;
         font-size: 16px;
     }
 
@@ -1388,8 +1389,8 @@ body{
         padding: 5px 10px;
         font-size: 20px;
         color:#fff;
-        border: 1px solid #ccdb38;
-        background: #ccdb38;
+        border: 1px solid @cd3;
+        background: @cd3;
     }
 
     #collape{
@@ -1420,13 +1421,13 @@ body{
             }
         }
         li:hover{
-            border-left: 1px solid @background-top;
+            border-left: 1px solid @4ba;
 
             a{
-                color: @background-top;
+                color: @4ba;
 
                 img{
-                    color: @background-top;
+                    color: @4ba;
                     filter: drop-shadow(1px 1px 1px #4BAE4F);
                     -moz-filter: drop-shadow(1px 1px 1px #4BAE4F);
                     -webkit-filter: drop-shadow(1px 1px 1px #4BAE4F);
@@ -1464,6 +1465,10 @@ body{
     }
 
     @media only screen and (min-width: 480px) and (max-width: 767px){
+        .header-top{
+            height: 130px;
+        }
+
         .logo-top{
             left: 40%;
         }

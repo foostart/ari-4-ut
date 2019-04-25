@@ -151,6 +151,9 @@
   color: #093eb6;
   transition: all .4s ease;
 }
+.type-230 #navbar li .dropdown-menu {
+  left: -1%;
+}
 .type-230 #navbar li .dropdown-menu a:hover {
   color: #093eb6;
   background-color: transparent;
@@ -179,6 +182,9 @@
   }
   .type-230 .logo-top-info .logo {
     text-align: center;
+  }
+  .type-230 .navbar-nav li a {
+    width: fit-content;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

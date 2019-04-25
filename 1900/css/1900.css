@@ -1295,7 +1295,7 @@ body {
   }
   .type-1900 .list-category-dropdown {
     margin-top: 42px;
-    float: right;
+    margin-right: -38px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

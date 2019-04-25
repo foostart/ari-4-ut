@@ -128,6 +128,12 @@
 .type-1307 .logo .logoright .checkout .cart:hover .fa {
   color: #ff6766;
 }
+.type-1307 .navbar-default .navbar-header .navbar-toggle {
+  background-color: #ddd;
+}
+.type-1307 .navbar-default .navbar-header .navbar-toggle:hover {
+  background-color: #fff;
+}
 .type-1307 .navbar-default .navbar-brand {
   font-weight: 540;
 }

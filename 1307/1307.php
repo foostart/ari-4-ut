@@ -25,10 +25,10 @@ $less->compileFile('less/1307.less', 'css/1307.css');
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/1307.css" rel="stylesheet" type="text/css" />
-        
+
         <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/collapse.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/collapse.js"></script>
     </head>
     <body>
         <?php include $dir_block . '/1307-content.php'; ?>

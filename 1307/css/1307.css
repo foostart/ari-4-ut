@@ -1,5 +1,5 @@
 .type-1307 .logo {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .type-1307 .search {
   font-size: 17px;
@@ -54,7 +54,7 @@
 }
 .type-1307 .navbar-default {
   background: #ff6766;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .type-1307 .navbar-collapse {
   text-align: center;
@@ -115,14 +115,12 @@
   transition: all .7s ease;
 }
 .type-1307 .logo .logoright .checkout .heart:hover {
-  font-size: 13px;
   transition: all .7s ease;
 }
 .type-1307 .logo .logoright .checkout .heart:hover .fa {
   color: #ff6766;
 }
 .type-1307 .logo .logoright .checkout .cart:hover {
-  font-size: 13px;
   transition: all .7s ease;
 }
 .type-1307 .logo .logoright .checkout .cart:hover .fa {

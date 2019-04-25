@@ -27,9 +27,6 @@
             <div class="container-fluid">
                 <div class="row"> 
 				
-                        Gentelella - Bootstrap Admin Template by
-                        <a href="#"> Colorlib</a>
-                    </footer>
                 </div>
             </div>
         </div>

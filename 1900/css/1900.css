@@ -716,7 +716,7 @@ body {
     overflow: auto;
     position: fixed;
     width: 300px;
-    height: auto;
+    height: 100%;
     left: -100%;
     background: #fff;
     display: block;
@@ -1168,17 +1168,27 @@ body {
     margin: 0;
     padding: 0;
   }
-  .type-1900 .content .container .row .menunav .buttonclosemenu span {
+  .type-1900 .content .container .row .menunav .activemenumobile {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.9);
+    visibility: hidden;
+  }
+  .type-1900 .content .container .row .buttonclosemenu span {
     display: block;
     width: 40px;
     height: 40px;
     font-size: 40px;
     z-index: 1;
-    position: absolute;
+    position: fixed;
     right: 100%;
     top: -5px;
   }
-  .type-1900 .content .container .row .menunav .buttonclosemenu span i {
+  .type-1900 .content .container .row .buttonclosemenu span i {
     color: #fab502;
   }
   .type-1900 .content .container .row .accountnav {
@@ -1325,6 +1335,9 @@ body {
   .type-1900 .top-extra-link {
     text-align: center;
   }
+  .type-1900 .buttonclosemenu {
+    display: none;
+  }
 }
 @media only screen and (min-width: 992px) {
   .type-1900 .smart-search-form {
@@ -1333,10 +1346,16 @@ body {
   .type-1900 .toggle-mobile-menu {
     display: none;
   }
+  .type-1900 .buttonclosemenu {
+    display: none;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .type-1900 .smart-search-form {
     width: 410px;
+  }
+  .type-1900 .buttonclosemenu {
+    display: none;
   }
 }
 @keyframes navup {

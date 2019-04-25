@@ -281,10 +281,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </ul>
                             </div>
                         </div>
+                        <div class="activemenumobile"></div>
+                    </div>
 
-                        <div class="buttonclosemenu">
-                            <span><i class="fa fa-times" aria-hidden="true"></i></span>
-                        </div>
+                    <div class="buttonclosemenu">
+                        <span><i class="fa fa-times" aria-hidden="true"></i></span>
                     </div>
                     <a href="#" class="toggle-mobile-menu"><span>Menu</span></a>
 

@@ -143,7 +143,6 @@
   }
   .type-220 #lms_header nav ul.nav-main ul.dropdown-menu #lms_header nav ul.nav-main ul.dropdown-menu li > a {
     padding: 9px 8px;
-    border: 0;
     border-top: 0;
     margin: 0;
   }
@@ -162,6 +161,11 @@
     margin-top: 5px;
     margin-right: -10px;
   }
+}
+.type-220 .nav .open a,
+.type-220 .nav .open a:focus,
+.type-220 .nav .open a:hover {
+  background: #fff;
 }
 .type-220 .lms_header_top {
   height: 50px;
@@ -192,7 +196,7 @@
 }
 .type-220 #navbar .navbar-nav .dropdown a,
 .type-220 #navbar .navbar-nav .down a {
-  border: 3px solid transparent;
+  border-bottom: 3px solid transparent;
   display: block;
 }
 .type-220 #navbar .navbar-nav .dropdown a:hover,
@@ -200,7 +204,7 @@
   border-bottom: 3px solid #60ca64;
 }
 .type-220 #navbar .navbar-nav .active {
-  border: 3px solid transparent;
+  border-bottom: 3px solid transparent;
   display: block;
 }
 .type-220 #navbar .navbar-nav .active a {
@@ -277,11 +281,9 @@
     left: 50%;
   }
   .type-220 .lms_any_que_wrapper a:hover {
-    font-size: 15px;
     transition: all .4s ease;
   }
   .type-220 .lms_login_wrapper li:hover {
-    font-size: 15px;
     transition: all .4s ease;
   }
 }

@@ -12,15 +12,17 @@ $(document).ready(function () {
         setTimeout(function () {
             $('.menunav').toggleClass("activemenunav");
             $('.menuiconnav').css({"opacity": "1"});
-            $('.buttonclosemenu span').css({"right": "0"});
+            $('.buttonclosemenu span').css({"right": "45%"});
         }, 400)
-        $('.menumobile').css({"display": "block", "left": "0"});
+        $('.menumobile').css({"display": "block", "left": "0", "top" : "0"});
+        $('.activemenumobile').css({"visibility": "visible"});
 
     });
     $('.buttonclosemenu span').click(function () {
 
         $('.buttonclosemenu span').css({"right": "100%"});
         $('.menunav').toggleClass("activemenunav");
+        $('.activemenumobile').css({"visibility": "hidden"});
         setTimeout(function () {
             $('.menumobile').css({"left": "-100%"});
             $('.menuiconnav').css({"opacity": "1"});
@@ -46,7 +48,6 @@ $(document).ready(function () {
         $(this).find('.subcontext').toggleClass("activesubcontext");
         if (blog == 1)
         {
-
             $(this).find('.title i').css({"top": "30px"});
             $(this).find('a i').attr({"class": "fa fa-angle-up"});
         } else if (blog == 2)

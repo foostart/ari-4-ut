@@ -166,6 +166,9 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+.type-230 .navbar-collapse {
+  max-height: fit-content;
+}
 .type-230 .logo-top-info {
   margin: 0;
 }

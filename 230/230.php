@@ -24,6 +24,7 @@
         
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/230.js"></script>
     </head>
     <body>
         <?php include $dir_block.'/230-content.php' ?>

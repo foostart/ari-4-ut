@@ -85,7 +85,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <li><a href="#">Careers</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About
+                                    <span class="caret"></span>
+                                </a>
                             </li>
                             <li class="down"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact US <span class="caret"></span></a>
                             </li>

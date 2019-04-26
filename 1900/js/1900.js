@@ -12,7 +12,7 @@ $(document).ready(function () {
         setTimeout(function () {
             $('.menunav').toggleClass("activemenunav");
             $('.menuiconnav').css({"opacity": "1"});
-            $('.buttonclosemenu span').css({"right": "45%"});
+            $('.buttonclosemenu span').css({"right": "40%"});
         }, 400)
         $('.menumobile').css({"display": "block", "left": "0", "top" : "0"});
         $('.activemenumobile').css({"visibility": "visible"});

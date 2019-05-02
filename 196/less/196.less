@@ -1,11 +1,11 @@
 .type-196{
     .swiper-button-next{
-        right: 4px;
+        right: 38px;
         top: 40%;
     }
 
     .swiper-button-prev{
-        left: 4px;
+        left: 38px;
         top: 40%;
     }
 
@@ -71,14 +71,23 @@
     .swiper-pagination{
         bottom: 0!important;
     }
+
     .arrow{
-        display: none;
-    }
-    .swiper-container:hover{
-        .arrow{
-            display: block;
+        .swiper-button-next, .swiper-button-prev{
+            opacity: .1;
         }
     }
+
+    .swiper-wrapper:hover ~ .arrow{
+        .swiper-button-next, .swiper-button-prev{
+            opacity: .35;
+        }
+    }
+
+    .swiper-button-next:hover, .swiper-button-prev:hover{
+        opacity: 1;
+    }
+
 }
 
 

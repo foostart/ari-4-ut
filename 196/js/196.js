@@ -8,7 +8,7 @@ $(document).ready(function () {
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: 4,
         spaceBetween: 20,
-        freeMode: true,
+        loop: true,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
@@ -17,7 +17,7 @@ $(document).ready(function () {
             el: '.swiper-pagination',
             clickable: true,
         }, autoplay: {
-            delay: 2500,
+            delay: 1000,
         },
         breakpoints: {
             1200: {

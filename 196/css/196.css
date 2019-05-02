@@ -1,9 +1,9 @@
 .type-196 .swiper-button-next {
-  right: 4px;
+  right: 38px;
   top: 40%;
 }
 .type-196 .swiper-button-prev {
-  left: 4px;
+  left: 38px;
   top: 40%;
 }
 @media (max-width: 768px) {
@@ -63,9 +63,15 @@
 .type-196 .swiper-pagination {
   bottom: 0 !important;
 }
-.type-196 .arrow {
-  display: none;
+.type-196 .arrow .swiper-button-next,
+.type-196 .arrow .swiper-button-prev {
+  opacity: .1;
 }
-.type-196 .swiper-container:hover .arrow {
-  display: block;
+.type-196 .swiper-wrapper:hover ~ .arrow .swiper-button-next,
+.type-196 .swiper-wrapper:hover ~ .arrow .swiper-button-prev {
+  opacity: .35;
+}
+.type-196 .swiper-button-next:hover,
+.type-196 .swiper-button-prev:hover {
+  opacity: 1;
 }

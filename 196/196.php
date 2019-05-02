@@ -29,7 +29,7 @@ $less->compileFile('less/196.less', 'css/196.css');
 
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/196.js" ></script>
+        <script src="<?php echo $url_path ?>/js/196.js"></script>
     </head>
 
     <body>

@@ -41,9 +41,9 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="widget soc">
                                 <div class="social">                
                                     <ul class="social-icons">
-                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>                    
+                                        <li><a id="fb" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a id="tw" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a id="linke" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>                    
                                     </ul>
                                 </div>
                             </div>                                

@@ -1,13 +1,11 @@
 $(document).ready(function () {
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 1,
+    var swiper1 = new Swiper('.swiper1902', {
+        slidesPerView: 'auto',
         spaceBetween: 30,
-        slidesPerGroup: 1,
         loop: true,
-        loopFillGroupWithBlank: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
         },
         navigation: {
             nextEl: '.swiper-button-next',

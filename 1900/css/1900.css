@@ -1,20 +1,22 @@
 body {
   padding: 0;
   margin: 0;
-  height: 2000px;
+}
+body a {
+  text-decoration: none;
+}
+body a:hover {
+  text-decoration: none;
+}
+body li {
+  list-style: none;
+}
+body ul {
+  list-style: none;
+  padding: 0;
 }
 .type-1900 {
   position: relative;
-}
-.type-1900 a {
-  text-decoration: none;
-}
-.type-1900 li {
-  list-style: none;
-}
-.type-1900 ul {
-  list-style: none;
-  padding: 0;
 }
 .type-1900 .clearfix {
   overflow: auto;
@@ -194,9 +196,6 @@ body {
 }
 .type-1900 .content {
   position: relative;
-}
-.type-1900 .content .row {
-  margin: 0;
 }
 .type-1900 .content .mmcontext {
   padding: 0;
@@ -1227,14 +1226,15 @@ body {
   background: #ccdb38;
 }
 .type-1900 #collape {
-  float: right;
+  position: absolute;
+  right: 0px;
   background: none 0px 0px repeat scroll #fafafa;
   border-style: solid;
   border-color: #ffffff #ffffff #ffffff;
   border-image: initial;
   box-shadow: rgba(0,0,0,0.2) 0px 4px 4px 0px;
   width: 200px;
-  z-index: 99;
+  z-index: 2;
   transition: all 0.3s ease-out 0s;
   text-align: left;
   top: 100%;
@@ -1303,9 +1303,10 @@ body {
   .type-1900 .top-extra-link {
     text-align: center;
   }
-  .type-1900 .list-category-dropdown {
-    margin-top: 42px;
-    margin-right: -38px;
+}
+@media only screen and (max-width: 767px) {
+  .type-1900 .content .row {
+    margin: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1338,6 +1339,9 @@ body {
   .type-1900 .buttonclosemenu {
     display: none;
   }
+  .type-1900 #collape {
+    right: 15px !important;
+  }
 }
 @media only screen and (min-width: 992px) {
   .type-1900 .smart-search-form {
@@ -1349,6 +1353,9 @@ body {
   .type-1900 .buttonclosemenu {
     display: none;
   }
+  .type-1900 #collape {
+    right: 15px !important;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .type-1900 .smart-search-form {
@@ -1357,6 +1364,12 @@ body {
   .type-1900 .buttonclosemenu {
     display: none;
   }
+}
+.type-1900 .context,
+.type-1900 .contextinformation,
+.type-1900 .contextmega,
+.type-1900 .contextshop {
+  z-index: 99;
 }
 @keyframes navup {
   0% {

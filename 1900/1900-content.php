@@ -42,8 +42,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="header-second">
                     <div class="col-md-4 col-sm-3">
                         <div class="logo-top">
-                            <a class="logo" href="#">
-                                <img src="images/logo-top.png" class="img-responsive" alt="logo">
+                            <a class="logo" href="../">
+                                <img  src="<?php echo $url_path ?>/images/logo-top.png" class="img-responsive" alt="logo">
                             </a>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item Home-->
                                     <li>
                                         <div class="title">
-                                            <a href="#">HOME <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                            <a href="../">HOME <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         </div>
                                         <div class="context">
                                             <ul>
@@ -119,24 +119,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </ul>
                                         </div>
                                     </li>
-                                    <!--Item Vendors-->
-                                    <li>
-                                        <div class="title">
-                                            <a href="#">Vendors <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                        </div>
-                                        <div class="context">
-                                            <ul>
-                                                <li><a href="#"><p>Vendors page</p></a></li>
-                                                <li><a href="#"><p>Vendor Dashboard</p></a></li>
-                                                <li><a href="#"><p>Orders</p></a></li>
-                                                <li><a href="#"><p>Shop Settings</p></a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
                                     <!--Item Shop-->
                                     <li>
                                         <div class="title">
-                                            <a href="#">Shops <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                            <a href="../fashion.php">Shops <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         </div>
 
                                         <div class="contextshop">
@@ -180,40 +166,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item Blog-->
                                     <li>
                                         <div class="title">
-                                            <a href="#">Blog <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                        </div>
-                                        <div class="context">
-                                            <ul>
-                                                <li><a href="#"><p>Blog default</p></a></li>
-                                                <li><a href="#"><p>Blog full</p></a></li>
-                                                <li><a href="#"><p>Blog list</p></a></li>
-                                                <li>
-                                                    <a href="#"><p>Blog grid <i class="fa fa-angle-right" aria-hidden="true"></i></p></a>
-                                                    <!--Sub menu for parent-->
-                                                    <div class="subcontext">
-                                                        <ul>
-                                                            <li><a href="#"><p>Blog grid</p></a></li>
-                                                            <li><a href="#"><p>Blog grid – 2 column</p></a></li>
-                                                            <li><a href="#"><p>Blog grid – 4 column</p></a></li>
-                                                            <li><a href="#"><p>Blog grid – 5 column</p></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><p>Posts Detail <i class="fa fa-angle-right" aria-hidden="true"></i></p></a>
-                                                    <div class="subcontext">
-                                                        <ul>
-                                                            <li><a href="#"><p>Post format: Standard</p></a></li>
-                                                            <li><a href="#"><p>Post format: Image</p></a></li>
-                                                            <li><a href="#"><p>Post format: Gallery</p></a></li>
-                                                            <li><a href="#"><p>Post format: Video</p></a></li>
-                                                            <li><a href="#"><p>Post format: Audio</p></a></li>
-                                                            <li><a href="#"><p>Post: Left Sidebar</p></a></li>
-                                                            <li><a href="#"><p>Post: No Sidebar</p></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                            <a href="../blog.php">Blog</a>
                                         </div>
                                     </li>
                                     <!--Item MegaMenu-->
@@ -241,7 +194,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <div class="megaone">
                                                     <h2>Deal Of The Day</h2>
                                                     <a href="#" class="image">
-                                                        <img src="./images/banner-header.jpg" alt="null">
+                                                        <img src="<?php echo $url_path ?>/images/banner-header.jpg" alt="null">
                                                     </a>
                                                     <h4>Travel shop</h4>
                                                     <h4 class="upto">Upto</h4>
@@ -269,13 +222,13 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--Item About-->
                                     <li>
                                         <div class="title">
-                                            <a href="#">About</a>
+                                            <a href="../about.php">About</a>
                                         </div>
                                     </li>
                                     <!--Item Contact-->
                                     <li>
                                         <div class="title">
-                                            <a href="#">Contact</a>
+                                            <a href="../contact.php">Contact</a>
                                         </div>
                                     </li>
                                 </ul>

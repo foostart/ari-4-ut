@@ -65,7 +65,7 @@
   color: #999;
   margin: 4px;
 }
-.type-232 .main-content:hover a {
+.type-232 .main-content a:hover {
   color: #fbb450;
 }
 .type-232 .clearfix {

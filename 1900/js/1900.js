@@ -13,8 +13,8 @@ $(document).ready(function () {
             $('.menunav').toggleClass("activemenunav");
             $('.menuiconnav').css({"opacity": "1"});
 			if ($(window).width() < 767) {
-			   $('.buttonclosemenu span').css({"right": "48%"});
-			}
+				$('.buttonclosemenu span').css({"right": "48%"});
+				}
 			if ($(window).width() <= 666) {
 			   $('.buttonclosemenu span').css({"right": "40%"});
 			}

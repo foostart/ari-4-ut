@@ -1,3 +1,6 @@
+.type-1902 {
+  position: relative;
+}
 .type-1902 .swiper1902 {
   width: 100%;
   height: 100%;
@@ -86,10 +89,10 @@
   display: none;
 }
 .type-1902 .swiper1902 .next1902 {
-  right: 102px;
+  right: 0;
 }
 .type-1902 .swiper1902 .prev1902 {
-  left: 102px;
+  left: 0;
 }
 .type-1902 .swiper1902 .swiper-slide {
   text-align: center;

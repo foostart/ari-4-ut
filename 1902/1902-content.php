@@ -7,7 +7,9 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-
+<div class="slider-home">
+            <div class="container">
+                <div class="row">
 <div class="col-md-8">
     <div class="type-1902">
         <div class="swiper-container swiper1902" >
@@ -50,4 +52,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
+</div>
+</div>
+</div>
 </div>
